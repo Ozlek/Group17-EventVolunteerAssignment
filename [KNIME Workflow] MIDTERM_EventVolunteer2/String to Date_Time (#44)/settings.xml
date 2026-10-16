@@ -15,6 +15,11 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xstring" value="Available Hours_Arr[0]"/>
+                    <entry key="1" type="xstring" value="Available Hours_Arr[1]"/>
+                </config>
+                <config key="manuallyDeselected">
                     <entry key="array-size" type="xint" value="10"/>
                     <entry key="0" type="xstring" value="Name"/>
                     <entry key="1" type="xstring" value="Skills"/>
@@ -25,10 +30,7 @@
                     <entry key="6" type="xstring" value="Task Description"/>
                     <entry key="7" type="xstring" value="Task Category"/>
                     <entry key="8" type="xstring" value="Schedule"/>
-                    <entry key="9" type="xstring" value="new column"/>
-                </config>
-                <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="0"/>
+                    <entry key="9" type="xstring" value="Column7"/>
                 </config>
                 <entry key="includeUnknownColumns" type="xboolean" value="false"/>
             </config>
@@ -40,16 +42,17 @@
         </config>
         <entry key="locale" type="xstring" value="en-US"/>
         <config key="format">
-            <entry key="temporalType" type="xstring" value="DATE"/>
-            <entry key="format" type="xstring" value="yyyy-MM-dd"/>
+            <entry key="temporalType" type="xstring" value="TIME"/>
+            <entry key="format" type="xstring" value="h:mm a"/>
         </config>
         <entry key="validateFormatV2" type="xboolean" value="true"/>
         <entry key="onError" type="xstring" value="SET_MISSING"/>
         <entry key="appendOrReplace" type="xstring" value="REPLACE"/>
         <entry key="outputColumnSuffix" type="xstring" value=" (Date&amp;time)"/>
     </config>
+    <config key="variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory2"/>
     <entry key="node-name" type="xstring" value="String to Date&amp;Time"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Date and Time Handling"/>
@@ -62,16 +65,19 @@
     <entry key="node-feature-version" type="xstring" value="5.12.0.v202606261225"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="String to Date&amp;Time"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 18"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="54b7a869-7d0b-40a0-9762-e17b6ec6bf88"/>
     </config>
 </config>

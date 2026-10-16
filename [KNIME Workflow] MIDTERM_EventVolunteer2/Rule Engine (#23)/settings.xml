@@ -7,14 +7,16 @@
     </config>
     <config key="model">
         <config key="rules">
-            <entry key="array-size" type="xint" value="4"/>
+            <entry key="array-size" type="xint" value="6"/>
             <entry key="0" type="xstring" value="// enter ordered set of rules, e.g.:"/>
             <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; &quot;large&quot;"/>
             <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
             <entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
+            <entry key="4" type="xstring" value="$Type$ = $Task Category$ =&gt; 100"/>
+            <entry key="5" type="xstring" value="TRUE =&gt; 0"/>
         </config>
-        <entry key="new-column-name" type="xstring" value="prediction"/>
-        <entry key="replace-column-name" type="xstring" value="new column"/>
+        <entry key="new-column-name" type="xstring" value="Category Score"/>
+        <entry key="replace-column-name" type="xstring" value="Distance to Task (km)"/>
         <entry key="append-column" type="xboolean" value="true"/>
         <entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
     </config>
@@ -39,12 +41,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 17"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 20"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2274a6f7-71df-4a23-8a3b-2d860e919e10"/>
+        <entry key="file_store_id" type="xstring" value="1e64714e-1b28-413b-a0df-f7f759d91128"/>
     </config>
 </config>

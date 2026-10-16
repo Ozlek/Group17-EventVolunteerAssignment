@@ -18,8 +18,8 @@
             <entry key="7" type="xstring" value="$Proficiency$ = &quot;Expert&quot; =&gt; 100"/>
             <entry key="8" type="xstring" value="TRUE =&gt; 0"/>
         </config>
-        <entry key="new-column-name" type="xstring" value="prediction"/>
-        <entry key="replace-column-name" type="xstring" value="risk_status"/>
+        <entry key="new-column-name" type="xstring" value="Proficiency Score"/>
+        <entry key="replace-column-name" type="xstring" value="Distance to Task (km)"/>
         <entry key="append-column" type="xboolean" value="true"/>
         <entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
     </config>
@@ -59,12 +59,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 16"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 19"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1754abba-6ae1-4d9b-89e7-d28118e033cf"/>
+        <entry key="file_store_id" type="xstring" value="9014113c-157c-4328-affd-58a0caa1b0b6"/>
     </config>
 </config>

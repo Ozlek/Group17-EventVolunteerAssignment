@@ -17,8 +17,8 @@
             <entry key="6" type="xstring" value="$Speed$ = &quot;Fast&quot; =&gt; 100"/>
             <entry key="7" type="xstring" value="TRUE =&gt; 0"/>
         </config>
-        <entry key="new-column-name" type="xstring" value="prediction"/>
-        <entry key="replace-column-name" type="xstring" value="risk_status"/>
+        <entry key="new-column-name" type="xstring" value="Speed Score"/>
+        <entry key="replace-column-name" type="xstring" value="Distance to Task (km)"/>
         <entry key="append-column" type="xboolean" value="true"/>
         <entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
     </config>
@@ -58,12 +58,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 16"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 900, Cols: 19"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a744f7d2-44e6-430e-b7a6-6cd7e079acec"/>
+        <entry key="file_store_id" type="xstring" value="ff06cb88-bbf9-4af9-bdd1-719d4c1c1ef2"/>
     </config>
 </config>
